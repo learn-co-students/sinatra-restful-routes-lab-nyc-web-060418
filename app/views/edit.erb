@@ -1,0 +1,8 @@
+<form method="POST" action="/recipes/<%= @recipe.id %>">
+
+  <input id="hidden" type="hidden" name="_method" value="patch">
+
+  <%= erb :form %>
+
+
+</form>
